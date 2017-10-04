@@ -35,7 +35,7 @@
 			<a href="#" class="pause"></a>
 		</div>
 		<div class="container paineis">
-			<section class="painel novidades">
+			<section class="painel novidades painel-compacto">
 				<h2>Novidades</h2>
 				<ol>
 					<li>
@@ -87,8 +87,9 @@
 						</a>
 					</li>
 				</ol>
+				<button type="button">Mostrar Mais</button>
 			</section>
-			<section class="painel mais-vendidos">
+			<section class="painel mais-vendidos painel-compacto">
 				<h2>Mais Vendidos</h2>
 				<ol>
 					<li>
@@ -140,8 +141,11 @@
 						</a>
 					</li>
 				</ol>
+				<button type="button">Mostrar Mais</button>
 			</section>
 		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/home.js"></script>
 		<script src="js/converteMoeda.js"></script>
 		<script src="js/testaConversao.js"></script>
 		<script src="js/banner-rotativo.js"></script>
